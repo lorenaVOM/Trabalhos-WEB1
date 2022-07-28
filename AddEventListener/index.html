@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Cookies</title>
+</head>
+
+<body>
+  <img src="./download20210902195622.png" alt="imagem">
+  <p id="paragrafo">Coloque o mouse sobre mim!</p>
+  <p id="cookies"></p>
+  <style>
+    .hide {
+      display: none;
+    }
+
+    img {
+      width: 250px;
+    }
+  </style>
+  <script src="./script.js"></script>
+  <script>
+    var elemento = document.getElementsByTagName("img")[0];
+    elemento.addEventListener("mouseover", imagem);
+    elemento.addEventListener("mouseout", cookies);
+  </script>
+</body>
+
+</html>
